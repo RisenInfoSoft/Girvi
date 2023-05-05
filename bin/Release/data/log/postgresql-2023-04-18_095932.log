@@ -1,0 +1,24 @@
+2023-04-18 09:59:32.512 IST [8196] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-18 09:59:32.513 IST [8196] LOG:  listening on IPv6 address "::", port 3612
+2023-04-18 09:59:32.513 IST [8196] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-18 09:59:32.649 IST [14332] LOG:  database system was shut down at 2023-04-18 09:58:40 IST
+2023-04-18 09:59:32.916 IST [8196] LOG:  database system is ready to accept connections
+2023-04-18 10:00:20.693 IST [8196] LOG:  server process (PID 2848) exited with exit code 1
+2023-04-18 10:00:20.693 IST [8196] DETAIL:  Failed process was running: SELECT COUNT(*) FROM party
+2023-04-18 10:00:20.694 IST [8196] LOG:  terminating any other active server processes
+2023-04-18 10:00:20.718 IST [8196] LOG:  all server processes terminated; reinitializing
+2023-04-18 10:00:20.834 IST [9404] LOG:  database system was interrupted; last known up at 2023-04-18 09:59:32 IST
+2023-04-18 10:00:21.649 IST [9404] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-04-18 10:00:21.657 IST [9404] LOG:  redo starts at 0/27CDC10
+2023-04-18 10:00:21.658 IST [9404] LOG:  invalid record length at 0/27CDC48: wanted 24, got 0
+2023-04-18 10:00:21.658 IST [9404] LOG:  redo done at 0/27CDC10 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-04-18 10:00:21.663 IST [6820] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-04-18 10:00:21.679 IST [6820] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.018 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-04-18 10:00:21.763 IST [8196] LOG:  database system is ready to accept connections
+2023-04-18 10:00:34.709 IST [8196] LOG:  received fast shutdown request
+2023-04-18 10:00:34.711 IST [8196] LOG:  aborting any active transactions
+2023-04-18 10:00:34.726 IST [8196] LOG:  background worker "logical replication launcher" (PID 13888) exited with exit code 1
+2023-04-18 10:00:34.728 IST [6820] LOG:  shutting down
+2023-04-18 10:00:34.729 IST [6820] LOG:  checkpoint starting: shutdown immediate
+2023-04-18 10:00:34.739 IST [6820] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.012 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-04-18 10:00:34.750 IST [8196] LOG:  database system is shut down

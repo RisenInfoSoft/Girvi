@@ -1,0 +1,18 @@
+2023-04-17 22:12:50.682 IST [11780] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-17 22:12:50.687 IST [11780] LOG:  listening on IPv6 address "::", port 3612
+2023-04-17 22:12:50.687 IST [11780] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-17 22:12:50.957 IST [7560] LOG:  database system was shut down at 2023-04-02 22:23:39 IST
+2023-04-17 22:12:51.112 IST [11780] LOG:  database system is ready to accept connections
+2023-04-17 22:14:40.223 IST [12280] FATAL:  database "postgres" does not exist
+2023-04-17 22:17:50.871 IST [13740] LOG:  checkpoint starting: time
+2023-04-17 22:17:50.961 IST [13740] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.017 s, sync=0.014 s, total=0.091 s; sync files=2, longest=0.013 s, average=0.007 s; distance=0 kB, estimate=0 kB
+2023-04-17 22:29:22.312 IST [11780] LOG:  received fast shutdown request
+2023-04-17 22:29:22.313 IST [11780] LOG:  aborting any active transactions
+2023-04-17 22:29:22.315 IST [6616] FATAL:  terminating connection due to administrator command
+2023-04-17 22:29:22.315 IST [5996] FATAL:  terminating connection due to administrator command
+2023-04-17 22:29:22.333 IST [12092] FATAL:  terminating connection due to administrator command
+2023-04-17 22:29:22.351 IST [11780] LOG:  background worker "logical replication launcher" (PID 7728) exited with exit code 1
+2023-04-17 22:29:22.390 IST [13740] LOG:  shutting down
+2023-04-17 22:29:22.392 IST [13740] LOG:  checkpoint starting: shutdown immediate
+2023-04-17 22:29:22.402 IST [13740] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.013 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-04-17 22:29:22.428 IST [11780] LOG:  database system is shut down

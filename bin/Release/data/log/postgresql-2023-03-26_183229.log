@@ -1,0 +1,18 @@
+2023-03-26 18:32:29.451 IST [15584] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-26 18:32:29.452 IST [15584] LOG:  listening on IPv6 address "::", port 3612
+2023-03-26 18:32:29.452 IST [15584] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-26 18:32:29.525 IST [12620] LOG:  database system was shut down at 2023-03-26 18:11:08 IST
+2023-03-26 18:32:29.580 IST [15584] LOG:  database system is ready to accept connections
+2023-03-26 18:33:04.226 IST [4804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-26 18:35:08.958 IST [15584] LOG:  background writer process (PID 8384) exited with exit code 1
+2023-03-26 18:35:08.958 IST [15584] LOG:  terminating any other active server processes
+2023-03-26 18:35:08.977 IST [15584] LOG:  all server processes terminated; reinitializing
+2023-03-26 18:35:09.023 IST [10664] LOG:  database system was interrupted; last known up at 2023-03-26 18:32:29 IST
+2023-03-26 18:35:09.699 IST [10664] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-26 18:35:09.704 IST [10664] LOG:  redo starts at 0/27CBAF0
+2023-03-26 18:35:09.704 IST [10664] LOG:  invalid record length at 0/27CBB28: wanted 24, got 0
+2023-03-26 18:35:09.704 IST [10664] LOG:  redo done at 0/27CBAF0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-26 18:35:09.710 IST [9372] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-03-26 18:35:09.738 IST [9372] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.031 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-26 18:35:09.774 IST [15584] LOG:  database system is ready to accept connections

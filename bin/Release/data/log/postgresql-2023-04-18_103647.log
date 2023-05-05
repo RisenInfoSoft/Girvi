@@ -1,0 +1,30 @@
+2023-04-18 10:36:47.772 IST [14692] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-18 10:36:47.794 IST [14692] LOG:  listening on IPv6 address "::", port 3612
+2023-04-18 10:36:47.794 IST [14692] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-18 10:36:48.287 IST [6220] LOG:  database system was shut down at 2023-04-18 10:00:34 IST
+2023-04-18 10:36:48.464 IST [14692] LOG:  database system is ready to accept connections
+2023-04-18 10:40:17.648 IST [5740] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 10:41:48.358 IST [14900] LOG:  checkpoint starting: time
+2023-04-18 10:41:48.615 IST [14900] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.238 s, sync=0.005 s, total=0.258 s; sync files=4, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=1 kB
+2023-04-18 16:31:49.397 IST [14900] LOG:  checkpoint starting: time
+2023-04-18 16:31:49.981 IST [14900] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.551 s, sync=0.005 s, total=0.592 s; sync files=5, longest=0.002 s, average=0.001 s; distance=31 kB, estimate=31 kB
+2023-04-18 16:35:27.492 IST [10712] ERROR:  syntax error at or near "." at character 37
+2023-04-18 16:35:27.492 IST [10712] STATEMENT:  alter table party
+	alter column party.mobile type varchar
+2023-04-18 16:36:49.984 IST [14900] LOG:  checkpoint starting: time
+2023-04-18 16:36:53.172 IST [14900] LOG:  checkpoint complete: wrote 30 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.165 s, sync=0.010 s, total=3.188 s; sync files=18, longest=0.001 s, average=0.001 s; distance=196 kB, estimate=196 kB
+2023-04-18 16:39:55.697 IST [8892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 16:40:31.360 IST [14692] LOG:  received fast shutdown request
+2023-04-18 16:40:31.363 IST [14692] LOG:  aborting any active transactions
+2023-04-18 16:40:31.363 IST [10712] FATAL:  terminating connection due to administrator command
+2023-04-18 16:40:31.364 IST [17156] FATAL:  terminating connection due to administrator command
+2023-04-18 16:40:31.370 IST [13252] FATAL:  terminating connection due to administrator command
+2023-04-18 16:40:31.372 IST [8152] FATAL:  terminating connection due to administrator command
+2023-04-18 16:40:31.378 IST [10744] FATAL:  terminating connection due to administrator command
+2023-04-18 16:40:31.437 IST [14692] LOG:  background worker "logical replication launcher" (PID 5572) exited with exit code 1
+2023-04-18 16:40:31.441 IST [14900] LOG:  shutting down
+2023-04-18 16:40:31.443 IST [14900] LOG:  checkpoint starting: shutdown immediate
+2023-04-18 16:40:31.468 IST [14900] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.007 s, total=0.028 s; sync files=8, longest=0.002 s, average=0.001 s; distance=8 kB, estimate=177 kB
+2023-04-18 16:40:31.497 IST [14692] LOG:  database system is shut down

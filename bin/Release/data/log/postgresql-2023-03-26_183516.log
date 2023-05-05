@@ -1,0 +1,19 @@
+2023-03-26 18:35:16.515 IST [15584] LOG:  system logger process (PID 15532) exited with exit code 1
+2023-03-26 18:35:18.046 IST [15584] LOG:  background writer process (PID 10320) exited with exit code 1
+2023-03-26 18:35:18.046 IST [15584] LOG:  terminating any other active server processes
+2023-03-26 18:35:18.083 IST [15584] LOG:  all server processes terminated; reinitializing
+2023-03-26 18:35:18.131 IST [16932] LOG:  database system was interrupted; last known up at 2023-03-26 18:35:15 IST
+2023-03-26 18:35:18.824 IST [16932] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-26 18:35:18.828 IST [16932] LOG:  invalid record length at 0/27CBC90: wanted 24, got 0
+2023-03-26 18:35:18.828 IST [16932] LOG:  redo is not required
+2023-03-26 18:35:18.835 IST [10724] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-03-26 18:35:18.853 IST [10724] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.004 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-26 18:35:18.895 IST [15584] LOG:  database system is ready to accept connections
+2023-03-26 18:37:18.482 IST [15584] LOG:  received fast shutdown request
+2023-03-26 18:37:18.504 IST [15584] LOG:  aborting any active transactions
+2023-03-26 18:37:18.507 IST [7000] FATAL:  terminating connection due to administrator command
+2023-03-26 18:37:18.522 IST [15584] LOG:  background worker "logical replication launcher" (PID 14788) exited with exit code 1
+2023-03-26 18:37:18.525 IST [10724] LOG:  shutting down
+2023-03-26 18:37:18.528 IST [10724] LOG:  checkpoint starting: shutdown immediate
+2023-03-26 18:37:18.541 IST [10724] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.017 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-03-26 18:37:18.576 IST [15584] LOG:  database system is shut down

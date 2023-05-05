@@ -1,0 +1,11 @@
+2023-03-26 18:35:10.276 IST [15584] LOG:  system logger process (PID 10828) exited with exit code 1
+2023-03-26 18:35:11.565 IST [15584] LOG:  background worker "logical replication launcher" (PID 17716) exited with exit code 1
+2023-03-26 18:35:11.565 IST [15584] LOG:  terminating any other active server processes
+2023-03-26 18:35:11.618 IST [15584] LOG:  all server processes terminated; reinitializing
+2023-03-26 18:35:11.675 IST [3180] LOG:  database system was interrupted; last known up at 2023-03-26 18:35:09 IST
+2023-03-26 18:35:12.351 IST [3180] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-26 18:35:12.356 IST [3180] LOG:  invalid record length at 0/27CBBA0: wanted 24, got 0
+2023-03-26 18:35:12.356 IST [3180] LOG:  redo is not required
+2023-03-26 18:35:12.361 IST [13824] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-03-26 18:35:12.379 IST [13824] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.004 s, total=0.020 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-26 18:35:12.422 IST [15584] LOG:  database system is ready to accept connections

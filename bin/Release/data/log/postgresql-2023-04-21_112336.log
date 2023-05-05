@@ -1,0 +1,19 @@
+2023-04-21 11:23:36.313 IST [5060] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-21 11:23:36.317 IST [5060] LOG:  listening on IPv6 address "::", port 3612
+2023-04-21 11:23:36.318 IST [5060] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-21 11:23:36.646 IST [8268] LOG:  database system was interrupted; last known up at 2023-04-20 16:58:22 IST
+2023-04-21 11:23:38.899 IST [8268] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-04-21 11:23:38.911 IST [8268] LOG:  redo starts at 0/280F7B0
+2023-04-21 11:23:38.911 IST [8268] LOG:  invalid record length at 0/280F898: wanted 24, got 0
+2023-04-21 11:23:38.911 IST [8268] LOG:  redo done at 0/280F860 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-04-21 11:23:38.918 IST [10456] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-04-21 11:23:38.934 IST [10456] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.018 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-04-21 11:23:38.970 IST [5060] LOG:  database system is ready to accept connections
+2023-04-21 11:28:17.388 IST [5060] LOG:  received fast shutdown request
+2023-04-21 11:28:17.390 IST [5060] LOG:  aborting any active transactions
+2023-04-21 11:28:17.403 IST [9172] FATAL:  terminating connection due to administrator command
+2023-04-21 11:28:17.427 IST [5060] LOG:  background worker "logical replication launcher" (PID 3572) exited with exit code 1
+2023-04-21 11:28:17.444 IST [10456] LOG:  shutting down
+2023-04-21 11:28:17.446 IST [10456] LOG:  checkpoint starting: shutdown immediate
+2023-04-21 11:28:17.457 IST [10456] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.013 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-04-21 11:28:17.481 IST [5060] LOG:  database system is shut down

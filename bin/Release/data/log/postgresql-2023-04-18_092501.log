@@ -1,0 +1,21 @@
+2023-04-18 09:25:01.979 IST [6492] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-18 09:25:01.989 IST [6492] LOG:  listening on IPv6 address "::", port 3612
+2023-04-18 09:25:01.989 IST [6492] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-18 09:25:03.554 IST [2716] LOG:  database system was shut down at 2023-04-17 22:29:22 IST
+2023-04-18 09:25:03.950 IST [6492] LOG:  database system is ready to accept connections
+2023-04-18 09:30:03.113 IST [14968] LOG:  checkpoint starting: time
+2023-04-18 09:30:03.136 IST [14968] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.003 s, total=0.024 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-04-18 09:31:24.222 IST [8132] ERROR:  value "8193965403" is out of range for type integer at character 140
+2023-04-18 09:31:24.222 IST [8132] STATEMENT:  Insert into party (CODE, NAME, ADDRESS, REMARK, MOBILE, DATE, EMAIL, CITY, STATE, IMAGE)  values ('P0000004', 'Mohit Shingal', '', '
+	
+	', '8193965403', '2023-04-18 09:30:08', '', 'mtr', 'Uttar Pradesh', Null)
+2023-04-18 09:38:56.569 IST [6492] LOG:  received fast shutdown request
+2023-04-18 09:38:56.571 IST [6492] LOG:  aborting any active transactions
+2023-04-18 09:38:56.574 IST [13180] FATAL:  terminating connection due to administrator command
+2023-04-18 09:38:56.576 IST [8132] FATAL:  terminating connection due to administrator command
+2023-04-18 09:38:56.586 IST [7208] FATAL:  terminating connection due to administrator command
+2023-04-18 09:38:56.593 IST [6492] LOG:  background worker "logical replication launcher" (PID 6600) exited with exit code 1
+2023-04-18 09:38:56.611 IST [14968] LOG:  shutting down
+2023-04-18 09:38:56.614 IST [14968] LOG:  checkpoint starting: shutdown immediate
+2023-04-18 09:38:56.622 IST [14968] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.011 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-04-18 09:38:56.636 IST [6492] LOG:  database system is shut down

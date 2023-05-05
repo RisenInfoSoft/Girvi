@@ -1,0 +1,19 @@
+2023-04-23 13:20:02.736 IST [11676] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-23 13:20:02.737 IST [11676] LOG:  listening on IPv6 address "::", port 3612
+2023-04-23 13:20:02.737 IST [11676] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-23 13:20:02.782 IST [11404] LOG:  database system was interrupted; last known up at 2023-04-22 21:14:37 IST
+2023-04-23 13:20:03.320 IST [11404] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-04-23 13:20:03.323 IST [11404] LOG:  redo starts at 0/2810A08
+2023-04-23 13:20:03.323 IST [11404] LOG:  invalid record length at 0/2810AF0: wanted 24, got 0
+2023-04-23 13:20:03.323 IST [11404] LOG:  redo done at 0/2810AB8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-04-23 13:20:03.327 IST [1572] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-04-23 13:20:03.343 IST [1572] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.004 s, total=0.018 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-04-23 13:20:03.385 IST [11676] LOG:  database system is ready to accept connections
+2023-04-23 13:23:59.669 IST [11676] LOG:  received fast shutdown request
+2023-04-23 13:23:59.673 IST [11676] LOG:  aborting any active transactions
+2023-04-23 13:23:59.673 IST [4396] FATAL:  terminating connection due to administrator command
+2023-04-23 13:23:59.696 IST [11676] LOG:  background worker "logical replication launcher" (PID 824) exited with exit code 1
+2023-04-23 13:23:59.698 IST [1572] LOG:  shutting down
+2023-04-23 13:23:59.701 IST [1572] LOG:  checkpoint starting: shutdown immediate
+2023-04-23 13:23:59.714 IST [1572] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.017 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-04-23 13:23:59.736 IST [11676] LOG:  database system is shut down

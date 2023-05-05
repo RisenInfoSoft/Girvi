@@ -1,0 +1,23 @@
+2023-04-18 09:54:30.900 IST [8788] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-18 09:54:30.945 IST [8788] LOG:  listening on IPv6 address "::", port 3612
+2023-04-18 09:54:30.945 IST [8788] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-18 09:54:31.236 IST [3168] LOG:  database system was shut down at 2023-04-18 09:44:31 IST
+2023-04-18 09:54:31.289 IST [8788] LOG:  database system is ready to accept connections
+2023-04-18 09:54:31.362 IST [13268] FATAL:  the database system is starting up
+2023-04-18 09:56:56.440 IST [11616] ERROR:  value "8057900222" is out of range for type integer at character 222
+2023-04-18 09:56:56.440 IST [11616] STATEMENT:  Insert into party (CODE, NAME, ADDRESS, REMARK, MOBILE, DATE, TYPE, EMAIL, CITY, STATE, IMAGE)  values ('P0000005', 'Akhil Goswami', 'Shitla Ghati In Front Of Ganga Mandir ', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	', '8057900222', '2023-04-18 09:54:41', 'Customer', 'akhil.goswami24@gmail.com', 'Mathura', 'Uttar Pradesh', Null)
+2023-04-18 09:57:13.523 IST [11616] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2023-04-18 09:57:13.523 IST [11616] STATEMENT:  select * from party where 1=2
+2023-04-18 09:57:46.051 IST [11616] ERROR:  value "8057900222" is out of range for type integer at character 222
+2023-04-18 09:57:46.051 IST [11616] STATEMENT:  Insert into party (CODE, NAME, ADDRESS, REMARK, MOBILE, DATE, TYPE, EMAIL, CITY, STATE, IMAGE)  values ('P0000005', 'Akhil Goswami', 'Shitla Ghati In Front Of Ganga Mandir ', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	', '8057900222', '2023-04-18 09:54:41', 'Customer', 'akhil.goswami24@gmail.com', 'Mathura', 'Uttar Pradesh', Null)
+2023-04-18 09:58:40.008 IST [8788] LOG:  received fast shutdown request
+2023-04-18 09:58:40.010 IST [8788] LOG:  aborting any active transactions
+2023-04-18 09:58:40.010 IST [11616] FATAL:  terminating connection due to administrator command
+2023-04-18 09:58:40.010 IST [2112] FATAL:  terminating connection due to administrator command
+2023-04-18 09:58:40.025 IST [8788] LOG:  background worker "logical replication launcher" (PID 5052) exited with exit code 1
+2023-04-18 09:58:40.032 IST [13144] LOG:  shutting down
+2023-04-18 09:58:40.034 IST [13144] LOG:  checkpoint starting: shutdown immediate
+2023-04-18 09:58:40.049 IST [13144] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2023-04-18 09:58:40.063 IST [8788] LOG:  database system is shut down

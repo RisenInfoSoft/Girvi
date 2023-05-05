@@ -1,0 +1,19 @@
+2023-04-22 16:39:54.177 IST [13504] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-04-22 16:39:54.183 IST [13504] LOG:  listening on IPv6 address "::", port 3612
+2023-04-22 16:39:54.183 IST [13504] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-04-22 16:39:54.299 IST [14968] LOG:  database system was shut down at 2023-04-22 16:39:08 IST
+2023-04-22 16:39:54.444 IST [13504] LOG:  database system is ready to accept connections
+2023-04-22 16:44:54.279 IST [12392] LOG:  checkpoint starting: time
+2023-04-22 16:44:54.315 IST [12392] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.005 s, total=0.038 s; sync files=2, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-04-22 18:24:54.505 IST [12392] LOG:  checkpoint starting: time
+2023-04-22 18:24:54.878 IST [12392] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.334 s, sync=0.006 s, total=0.382 s; sync files=3, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=1 kB
+2023-04-22 18:27:04.892 IST [13524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-22 18:44:59.561 IST [13504] LOG:  received fast shutdown request
+2023-04-22 18:44:59.564 IST [13504] LOG:  aborting any active transactions
+2023-04-22 18:44:59.593 IST [6684] FATAL:  terminating connection due to administrator command
+2023-04-22 18:44:59.609 IST [13504] LOG:  background worker "logical replication launcher" (PID 4652) exited with exit code 1
+2023-04-22 18:44:59.615 IST [12392] LOG:  shutting down
+2023-04-22 18:44:59.617 IST [12392] LOG:  checkpoint starting: shutdown immediate
+2023-04-22 18:44:59.630 IST [12392] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.015 s; sync files=1, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=1 kB
+2023-04-22 18:44:59.647 IST [13504] LOG:  database system is shut down
