@@ -1,0 +1,167 @@
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.csprojAssemblyReference.cache
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Desktop.frmdesktop.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Desktop.SplashScreen.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmChangePassword.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmClsMsgBox.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmLoginPopup.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popBackUp.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.Properties.Resources.resources
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.csproj.GenerateResource.cache
+D:\AK PROJECT\risen\working\New folder\Girvi\obj\Release\Girvi.csproj.CoreCompileInputs.cache
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.csprojAssemblyReference.cache
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Desktop.frmdesktop.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Desktop.SplashScreen.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmAccountMaster.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmItemMaster.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmChangePassword.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmClsMsgBox.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmLoginPopup.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.ListPopup.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popBackUp.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Properties.Resources.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.MyGridView.resources
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.csproj.GenerateResource.cache
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.csproj.CoreCompileInputs.cache
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Girvi.exe.config
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Girvi.exe
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Girvi.pdb
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Bcl.HashCode.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Npgsql.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Buffers.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Collections.Immutable.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Memory.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Numerics.Vectors.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Text.Encodings.Web.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Text.Json.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Threading.Channels.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.ValueTuple.dll
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Bcl.HashCode.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\Npgsql.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Buffers.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Collections.Immutable.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Memory.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Numerics.Vectors.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Text.Encodings.Web.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Text.Json.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Threading.Channels.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\AK PROJECT\risen\working\Girvi\bin\Release\System.ValueTuple.xml
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.csproj.CopyComplete
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.exe
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.pdb
+D:\AK PROJECT\risen\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmGirviReceive.resources
+C:\working\Girvi\bin\Release\Girvi.exe.config
+C:\working\Girvi\bin\Release\Girvi.exe
+C:\working\Girvi\bin\Release\Girvi.pdb
+C:\working\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\working\Girvi\bin\Release\Microsoft.Bcl.HashCode.dll
+C:\working\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\working\Girvi\bin\Release\Npgsql.dll
+C:\working\Girvi\bin\Release\System.Buffers.dll
+C:\working\Girvi\bin\Release\System.Collections.Immutable.dll
+C:\working\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\working\Girvi\bin\Release\System.Memory.dll
+C:\working\Girvi\bin\Release\System.Numerics.Vectors.dll
+C:\working\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\working\Girvi\bin\Release\System.Text.Encodings.Web.dll
+C:\working\Girvi\bin\Release\System.Text.Json.dll
+C:\working\Girvi\bin\Release\System.Threading.Channels.dll
+C:\working\Girvi\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\working\Girvi\bin\Release\System.ValueTuple.dll
+C:\working\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\working\Girvi\bin\Release\Microsoft.Bcl.HashCode.xml
+C:\working\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\working\Girvi\bin\Release\Npgsql.xml
+C:\working\Girvi\bin\Release\System.Buffers.xml
+C:\working\Girvi\bin\Release\System.Collections.Immutable.xml
+C:\working\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\working\Girvi\bin\Release\System.Memory.xml
+C:\working\Girvi\bin\Release\System.Numerics.Vectors.xml
+C:\working\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\working\Girvi\bin\Release\System.Text.Encodings.Web.xml
+C:\working\Girvi\bin\Release\System.Text.Json.xml
+C:\working\Girvi\bin\Release\System.Threading.Channels.xml
+C:\working\Girvi\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\working\Girvi\bin\Release\System.ValueTuple.xml
+C:\working\Girvi\obj\Release\Girvi.csprojAssemblyReference.cache
+C:\working\Girvi\obj\Release\Girvi.Forms.Desktop.frmdesktop.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Desktop.SplashScreen.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmAccountMaster.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmItemMaster.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmChangePassword.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmClsMsgBox.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmLoginPopup.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.ListPopup.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popBackUp.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Master_Form.frmGirviReceive.resources
+C:\working\Girvi\obj\Release\Girvi.Properties.Resources.resources
+C:\working\Girvi\obj\Release\Girvi.MyGridView.resources
+C:\working\Girvi\obj\Release\Girvi.csproj.GenerateResource.cache
+C:\working\Girvi\obj\Release\Girvi.csproj.CoreCompileInputs.cache
+C:\working\Girvi\obj\Release\Girvi.csproj.CopyComplete
+C:\working\Girvi\obj\Release\Girvi.exe
+C:\working\Girvi\obj\Release\Girvi.pdb
+C:\working\Girvi\obj\Release\Girvi.Forms.View.frmPartyList.resources
+C:\working\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popController.resources
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Girvi.exe.config
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Girvi.exe
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Girvi.pdb
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Bcl.HashCode.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Npgsql.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Buffers.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Collections.Immutable.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Memory.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Numerics.Vectors.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Text.Encodings.Web.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Text.Json.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Threading.Channels.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.ValueTuple.dll
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Bcl.HashCode.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\Npgsql.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Buffers.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Collections.Immutable.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Memory.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Numerics.Vectors.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Text.Encodings.Web.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Text.Json.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Threading.Channels.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Projects\python\basic\New folder\Girvi\bin\Release\System.ValueTuple.xml
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.csprojAssemblyReference.cache
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Desktop.frmdesktop.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Desktop.SplashScreen.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Master_Form.frmAccountMaster.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Master_Form.frmItemMaster.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmChangePassword.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmClsMsgBox.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.frmLoginPopup.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.ListPopup.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popBackUp.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Pop_Up_Form.popController.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.Master_Form.frmGirviReceive.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Forms.View.frmPartyList.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.Properties.Resources.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.MyGridView.resources
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.csproj.GenerateResource.cache
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.csproj.CoreCompileInputs.cache
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.csproj.CopyComplete
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.exe
+C:\Projects\python\basic\New folder\Girvi\obj\Release\Girvi.pdb
