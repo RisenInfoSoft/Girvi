@@ -1,0 +1,28 @@
+2023-02-19 21:07:43.880 IST [10972] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-02-19 21:07:43.883 IST [10972] LOG:  listening on IPv6 address "::", port 3612
+2023-02-19 21:07:43.883 IST [10972] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-02-19 21:07:43.928 IST [1256] LOG:  database system was shut down at 2023-02-19 21:00:19 IST
+2023-02-19 21:07:43.986 IST [10972] LOG:  database system is ready to accept connections
+2023-02-19 21:12:20.461 IST [14456] ERROR:  column "bill_date" does not exist at character 40
+2023-02-19 21:12:20.461 IST [14456] STATEMENT:  SELECT MAX(code) FROM party WHERE DATE(bill_date) = ''
+2023-02-19 21:12:29.357 IST [14456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-02-19 21:12:43.915 IST [15832] LOG:  checkpoint starting: time
+2023-02-19 21:12:46.606 IST [15832] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.634 s, sync=0.042 s, total=2.692 s; sync files=19, longest=0.020 s, average=0.003 s; distance=140 kB, estimate=140 kB
+2023-02-19 22:53:56.707 IST [14196] ERROR:  column "bill_date" does not exist at character 40
+2023-02-19 22:53:56.707 IST [14196] STATEMENT:  SELECT MAX(code) FROM party WHERE DATE(bill_date) = ''
+2023-02-19 22:54:32.466 IST [9072] ERROR:  column "bill_date" does not exist at character 40
+2023-02-19 22:54:32.466 IST [9072] STATEMENT:  SELECT MAX(code) FROM party WHERE DATE(bill_date) = ''
+2023-02-19 22:54:34.020 IST [9072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-02-19 22:56:00.232 IST [10972] LOG:  received fast shutdown request
+2023-02-19 22:56:00.234 IST [10972] LOG:  aborting any active transactions
+2023-02-19 22:56:00.234 IST [14196] FATAL:  terminating connection due to administrator command
+2023-02-19 22:56:00.234 IST [8668] FATAL:  terminating connection due to administrator command
+2023-02-19 22:56:00.234 IST [1088] FATAL:  terminating connection due to administrator command
+2023-02-19 22:56:00.234 IST [8720] FATAL:  terminating connection due to administrator command
+2023-02-19 22:56:00.257 IST [10972] LOG:  background worker "logical replication launcher" (PID 7368) exited with exit code 1
+2023-02-19 22:56:00.261 IST [15832] LOG:  shutting down
+2023-02-19 22:56:00.264 IST [15832] LOG:  checkpoint starting: shutdown immediate
+2023-02-19 22:56:00.274 IST [15832] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.013 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=126 kB
+2023-02-19 22:56:00.298 IST [10972] LOG:  database system is shut down

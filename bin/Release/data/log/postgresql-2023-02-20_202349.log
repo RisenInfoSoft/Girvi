@@ -1,0 +1,15 @@
+2023-02-20 20:23:49.541 IST [8376] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-02-20 20:23:49.543 IST [8376] LOG:  listening on IPv6 address "::", port 3612
+2023-02-20 20:23:49.543 IST [8376] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-02-20 20:23:49.599 IST [5040] LOG:  database system was shut down at 2023-02-19 22:56:00 IST
+2023-02-20 20:23:49.637 IST [8376] LOG:  database system is ready to accept connections
+2023-02-20 20:24:23.946 IST [12344] ERROR:  syntax error at or near "integer" at character 60
+2023-02-20 20:24:23.946 IST [12344] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1),signed integer)) from party
+2023-02-20 20:24:45.318 IST [8376] LOG:  received fast shutdown request
+2023-02-20 20:24:45.339 IST [8376] LOG:  aborting any active transactions
+2023-02-20 20:24:45.340 IST [12344] FATAL:  terminating connection due to administrator command
+2023-02-20 20:24:45.362 IST [8376] LOG:  background worker "logical replication launcher" (PID 15060) exited with exit code 1
+2023-02-20 20:24:45.364 IST [5888] LOG:  shutting down
+2023-02-20 20:24:45.367 IST [5888] LOG:  checkpoint starting: shutdown immediate
+2023-02-20 20:24:45.389 IST [5888] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.005 s, total=0.025 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB
+2023-02-20 20:24:45.397 IST [8376] LOG:  database system is shut down

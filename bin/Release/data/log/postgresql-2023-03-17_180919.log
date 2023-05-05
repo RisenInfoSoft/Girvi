@@ -1,0 +1,14 @@
+2023-03-17 18:09:19.894 IST [17772] LOG:  system logger process (PID 10980) exited with exit code 1
+2023-03-17 18:09:21.441 IST [17772] LOG:  background writer process (PID 5968) exited with exit code 1
+2023-03-17 18:09:21.441 IST [17772] LOG:  terminating any other active server processes
+2023-03-17 18:09:21.461 IST [17772] LOG:  all server processes terminated; reinitializing
+2023-03-17 18:09:21.494 IST [12676] LOG:  database system was interrupted; last known up at 2023-03-17 18:04:47 IST
+2023-03-17 18:09:21.811 IST [12676] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-17 18:09:21.814 IST [12676] LOG:  redo starts at 0/27700A0
+2023-03-17 18:09:21.814 IST [12676] LOG:  invalid record length at 0/27700D8: wanted 24, got 0
+2023-03-17 18:09:21.814 IST [12676] LOG:  redo done at 0/27700A0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-17 18:09:21.818 IST [6008] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-03-17 18:09:21.830 IST [6008] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.014 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-17 18:09:21.878 IST [17772] LOG:  database system is ready to accept connections
+2023-03-17 18:09:23.293 IST [6008] FATAL:  could not open shared memory segment "Global/PostgreSQL.1153437770": No such file or directory
+2023-03-17 18:09:23.293 IST [6008] FATAL:  can't attach the same segment more than once

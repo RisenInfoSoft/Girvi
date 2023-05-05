@@ -1,0 +1,11 @@
+2023-03-20 23:39:00.462 IST [17728] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-20 23:39:00.463 IST [17728] LOG:  listening on IPv6 address "::", port 3612
+2023-03-20 23:39:00.463 IST [17728] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-20 23:39:00.508 IST [10532] LOG:  database system was shut down at 2023-03-20 23:38:32 IST
+2023-03-20 23:39:00.547 IST [17728] LOG:  database system is ready to accept connections
+2023-03-20 23:39:26.658 IST [10360] ERROR:  syntax error at or near "`" at character 95
+2023-03-20 23:39:26.658 IST [10360] STATEMENT:  SELECT CODE, NAME, address, remark, mobile, email, DATE(date) AS date, city, state, TYPE FROM `party` WHERE CODE = 'P0000002' AND NAME = 'abx'
+2023-03-20 23:39:44.649 IST [10360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-20 23:44:00.509 IST [10176] LOG:  checkpoint starting: time
+2023-03-20 23:44:00.643 IST [10176] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.116 s, sync=0.006 s, total=0.134 s; sync files=3, longest=0.003 s, average=0.002 s; distance=4 kB, estimate=4 kB

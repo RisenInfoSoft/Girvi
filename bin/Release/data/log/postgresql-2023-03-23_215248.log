@@ -1,0 +1,15 @@
+2023-03-23 21:52:48.121 IST [8008] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-23 21:52:48.122 IST [8008] LOG:  listening on IPv6 address "::", port 3612
+2023-03-23 21:52:48.122 IST [8008] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-23 21:52:48.176 IST [17088] LOG:  database system was shut down at 2023-03-23 21:52:39 IST
+2023-03-23 21:52:48.222 IST [8008] LOG:  database system is ready to accept connections
+2023-03-23 21:57:48.172 IST [8804] LOG:  checkpoint starting: time
+2023-03-23 21:57:48.214 IST [8804] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.004 s, total=0.043 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-23 22:01:48.499 IST [8008] LOG:  received fast shutdown request
+2023-03-23 22:01:48.505 IST [8008] LOG:  aborting any active transactions
+2023-03-23 22:01:48.506 IST [11588] FATAL:  terminating connection due to administrator command
+2023-03-23 22:01:48.525 IST [8008] LOG:  background worker "logical replication launcher" (PID 5112) exited with exit code 1
+2023-03-23 22:01:48.526 IST [8804] LOG:  shutting down
+2023-03-23 22:01:48.528 IST [8804] LOG:  checkpoint starting: shutdown immediate
+2023-03-23 22:01:48.539 IST [8804] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.013 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-03-23 22:01:48.562 IST [8008] LOG:  database system is shut down

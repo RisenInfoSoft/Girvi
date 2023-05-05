@@ -1,0 +1,23 @@
+2023-03-22 00:03:07.358 IST [16424] ERROR:  syntax error at or near "`" at character 30
+2023-03-22 00:03:07.358 IST [16424] STATEMENT:  SELECT CODE AS CODE, NAME AS `NAME`, TYPE AS TYPE FROM party
+2023-03-22 00:03:59.248 IST [16424] ERROR:  syntax error at or near "'NAME'" at character 30
+2023-03-22 00:03:59.248 IST [16424] STATEMENT:  SELECT CODE AS CODE, NAME AS 'NAME', TYPE AS TYPE FROM party
+2023-03-22 00:04:03.345 IST [16424] ERROR:  syntax error at or near "'NAME'" at character 30
+2023-03-22 00:04:03.345 IST [16424] STATEMENT:  SELECT CODE AS CODE, NAME AS 'NAME', TYPE AS TYPE FROM party
+2023-03-22 00:05:07.972 IST [16424] ERROR:  column "nam" does not exist at character 22
+2023-03-22 00:05:07.972 IST [16424] HINT:  Perhaps you meant to reference the column "party.name".
+2023-03-22 00:05:07.972 IST [16424] STATEMENT:  SELECT CODE AS CODE, nam, TYPE AS TYPE FROM party
+2023-03-22 00:14:27.084 IST [16424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-22 00:14:27.084 IST [13596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-22 00:14:27.086 IST [6284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-22 00:14:29.710 IST [8844] LOG:  received fast shutdown request
+2023-03-22 00:14:29.713 IST [8844] LOG:  aborting any active transactions
+2023-03-22 00:14:29.714 IST [3600] FATAL:  terminating connection due to administrator command
+2023-03-22 00:14:29.736 IST [8844] LOG:  background worker "logical replication launcher" (PID 1164) exited with exit code 1
+2023-03-22 00:14:29.737 IST [5408] LOG:  shutting down
+2023-03-22 00:14:29.739 IST [5408] LOG:  checkpoint starting: shutdown immediate
+2023-03-22 00:14:29.756 IST [5408] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.005 s, total=0.020 s; sync files=4, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2023-03-22 00:14:29.786 IST [8844] LOG:  database system is shut down

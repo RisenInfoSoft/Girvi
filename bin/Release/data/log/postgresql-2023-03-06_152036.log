@@ -1,0 +1,28 @@
+2023-03-06 15:20:36.436 IST [9252] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-06 15:20:36.437 IST [9252] LOG:  listening on IPv6 address "::", port 3612
+2023-03-06 15:20:36.438 IST [9252] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-06 15:20:36.485 IST [10188] LOG:  database system was shut down at 2023-03-06 15:10:48 IST
+2023-03-06 15:20:36.530 IST [9252] LOG:  database system is ready to accept connections
+2023-03-06 15:22:18.893 IST [3008] ERROR:  syntax error at or near "integer" at character 60
+2023-03-06 15:22:18.893 IST [3008] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1),signed integer)) from party
+2023-03-06 15:25:26.025 IST [10692] ERROR:  syntax error at or near "integer" at character 60
+2023-03-06 15:25:26.025 IST [10692] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1),signed integer)) from party
+2023-03-06 15:25:36.484 IST [2608] LOG:  checkpoint starting: time
+2023-03-06 15:25:36.871 IST [2608] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.326 s, sync=0.027 s, total=0.389 s; sync files=5, longest=0.020 s, average=0.006 s; distance=0 kB, estimate=0 kB
+2023-03-06 15:25:45.913 IST [10692] ERROR:  column "integer" does not exist at character 53
+2023-03-06 15:25:45.913 IST [10692] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1),integer)) from party
+2023-03-06 15:25:56.834 IST [10692] ERROR:  column "int" does not exist at character 53
+2023-03-06 15:25:56.834 IST [10692] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1),int)) from party
+2023-03-06 15:29:32.561 IST [10692] ERROR:  function convert(integer) does not exist at character 12
+2023-03-06 15:29:32.561 IST [10692] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-03-06 15:29:32.561 IST [10692] STATEMENT:  select max(convert(substr(code, 2, length(code)- 1):: integer)) from party
+2023-03-06 15:32:49.366 IST [9252] LOG:  received fast shutdown request
+2023-03-06 15:32:49.386 IST [9252] LOG:  aborting any active transactions
+2023-03-06 15:32:49.387 IST [10692] FATAL:  terminating connection due to administrator command
+2023-03-06 15:32:49.387 IST [2148] FATAL:  terminating connection due to administrator command
+2023-03-06 15:32:49.387 IST [3008] FATAL:  terminating connection due to administrator command
+2023-03-06 15:32:49.418 IST [9252] LOG:  background worker "logical replication launcher" (PID 6008) exited with exit code 1
+2023-03-06 15:32:49.421 IST [2608] LOG:  shutting down
+2023-03-06 15:32:49.423 IST [2608] LOG:  checkpoint starting: shutdown immediate
+2023-03-06 15:32:49.436 IST [2608] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.016 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-03-06 15:32:49.467 IST [9252] LOG:  database system is shut down

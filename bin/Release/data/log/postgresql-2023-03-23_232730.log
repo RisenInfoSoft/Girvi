@@ -1,0 +1,17 @@
+2023-03-23 23:27:30.726 IST [4984] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-23 23:27:30.727 IST [4984] LOG:  listening on IPv6 address "::", port 3612
+2023-03-23 23:27:30.728 IST [4984] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-23 23:27:30.795 IST [14060] LOG:  database system was shut down at 2023-03-23 23:27:18 IST
+2023-03-23 23:27:30.851 IST [4984] LOG:  database system is ready to accept connections
+2023-03-23 23:29:36.685 IST [9852] ERROR:  relation "tbl_tunch" does not exist at character 18
+2023-03-23 23:29:36.685 IST [9852] STATEMENT:  SELECT code FROM tbl_tunch WHERE code = ''
+2023-03-23 23:29:41.600 IST [9852] ERROR:  relation "tbl_tunch" does not exist at character 25
+2023-03-23 23:29:41.600 IST [9852] STATEMENT:  select count(code) from tbl_tunch
+2023-03-23 23:30:00.649 IST [4984] LOG:  received fast shutdown request
+2023-03-23 23:30:00.669 IST [4984] LOG:  aborting any active transactions
+2023-03-23 23:30:00.670 IST [9852] FATAL:  terminating connection due to administrator command
+2023-03-23 23:30:00.695 IST [4984] LOG:  background worker "logical replication launcher" (PID 4964) exited with exit code 1
+2023-03-23 23:30:00.698 IST [17956] LOG:  shutting down
+2023-03-23 23:30:00.700 IST [17956] LOG:  checkpoint starting: shutdown immediate
+2023-03-23 23:30:00.724 IST [17956] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.005 s, total=0.026 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB
+2023-03-23 23:30:00.747 IST [4984] LOG:  database system is shut down

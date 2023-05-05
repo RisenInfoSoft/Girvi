@@ -1,0 +1,20 @@
+2023-03-06 16:52:45.043 IST [12492] LOG:  starting PostgreSQL 15.1, compiled by Visual C++ build 1914, 64-bit
+2023-03-06 16:52:45.044 IST [12492] LOG:  listening on IPv6 address "::", port 3612
+2023-03-06 16:52:45.044 IST [12492] LOG:  listening on IPv4 address "0.0.0.0", port 3612
+2023-03-06 16:52:45.090 IST [13340] LOG:  database system was shut down at 2023-03-06 16:52:38 IST
+2023-03-06 16:52:45.111 IST [12492] LOG:  database system is ready to accept connections
+2023-03-06 16:57:45.088 IST [15928] LOG:  checkpoint starting: time
+2023-03-06 16:57:45.115 IST [15928] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.005 s, total=0.027 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB
+2023-03-06 17:12:45.132 IST [15928] LOG:  checkpoint starting: time
+2023-03-06 17:12:45.589 IST [15928] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.434 s, sync=0.009 s, total=0.458 s; sync files=5, longest=0.003 s, average=0.002 s; distance=21 kB, estimate=21 kB
+2023-03-06 17:26:46.041 IST [12492] LOG:  received fast shutdown request
+2023-03-06 17:26:46.045 IST [12492] LOG:  aborting any active transactions
+2023-03-06 17:26:46.045 IST [11852] FATAL:  terminating connection due to administrator command
+2023-03-06 17:26:46.045 IST [14692] FATAL:  terminating connection due to administrator command
+2023-03-06 17:26:46.045 IST [8600] FATAL:  terminating connection due to administrator command
+2023-03-06 17:26:46.046 IST [9800] FATAL:  terminating connection due to administrator command
+2023-03-06 17:26:46.069 IST [12492] LOG:  background worker "logical replication launcher" (PID 9948) exited with exit code 1
+2023-03-06 17:26:46.070 IST [15928] LOG:  shutting down
+2023-03-06 17:26:46.072 IST [15928] LOG:  checkpoint starting: shutdown immediate
+2023-03-06 17:26:46.105 IST [15928] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.018 s, total=0.035 s; sync files=18, longest=0.002 s, average=0.001 s; distance=133 kB, estimate=133 kB
+2023-03-06 17:26:46.141 IST [12492] LOG:  database system is shut down
